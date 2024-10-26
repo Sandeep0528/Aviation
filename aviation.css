@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f8ff;
+}
+
+header {
+    background: #004f87;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+.hero-banner {
+    background: url('https://www.tributemedia.com/hubfs/Images/Blog%20Images/shutterstock_252081805.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: cadetblue;
+}
+
+.hero-content p {
+    color: floralwhite;
+}
+
+.promotions {
+    padding: 2em;
+    text-align: center;
+}
+
+.promo-card {
+    border: 1px solid #004f87;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #004f87;
+    color: white;
+}
